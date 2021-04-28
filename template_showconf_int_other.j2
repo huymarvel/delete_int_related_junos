@@ -1,0 +1,3 @@
+{% for interface in int %}
+show configuration | display set | match {{interface}}
+{% endfor %}
